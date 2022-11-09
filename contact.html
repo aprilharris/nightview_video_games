@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact|NightView Video Games</title>
+<!--   GOOGLE FONTS -->
+ <!--   FONTAWESOME ICONS -->
+<script src="https://kit.fontawesome.com/a48cb8a541.js" crossorigin="anonymous"></script>
+<!--   BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- BOOTSTRAP CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.2.2/dist/vapor/bootstrap.min.css">
+  <!--   CUSTOM CSS -->  <link rel="stylesheet" href="style.css" />
+</head>
+  <body>
+    <!-- NAVIGATION -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark  sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#top">NightView Video Games</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+       
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="shop.html">Shop</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+
+      </div>
+    </div>
+  </div>
+</nav>
+  <header class="text-center d-flex align-items-center">
+    <div class="container">
+    <h1 class="display-1">Contact</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+   
+    </div>
+  </header>
+   <main>
+  <div class="container px-5 my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="card border-0 rounded-3 shadow-lg">
+        <div class="card-body p-4">
+          <div class="text-center">
+            <div class="h1 fw-light">Contact Us.</div>
+            <p class="mb-4 text-muted">Questions? Concerns? Something else? Send us an email!</p>
+          </div>
+
+         
+<form>
+
+            <!-- Name Input -->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+              <label for="name">Name</label>
+              <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+            </div>
+
+            <!-- Email Input -->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+              <label for="emailAddress">Email Address</label>
+              <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+              <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+            </div>
+
+            <!-- Message Input -->
+            <div class="form-floating mb-3">
+              <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+              <label for="message">Message</label>
+              <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+            </div>
+
+
+            <!-- Submit button -->
+            <div class="d-grid">
+              <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
+            </div>
+          </form>
+          <!-- End of contact form -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   </main>
+ <footer class="bg-dark p-5 text-muted">
+    <div class="row">
+      <div class="col-sm col-md col-lg mb-3">
+        <h4 class="text-info">Visit</h4>
+		<p>NightView Video Games<br>
+		4706 Colorado Street<br>
+		Pasadena, CA, 91056<br>
+		Nightview@yahoo.com<br>
+		(626) 775-4857</p>
+    </div>
+      <div class="col-sm col-md col-lg mb-3">
+        <h4 class="text-info">Quick Links</h4>
+		<nav> 
+      <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="shop.html">Shop</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+    </div>
+       <div class="col-sm col-md col-lg mb-3">
+        <h4 class="text-info">Connect</h4>
+		<i class="bi bi-twitter fs-3 me-2"></i>
+		<i class="bi bi-instagram fs-3 me-2"></i>
+		<i class="bi bi-facebook fs-3 me-2"></i>
+    </div>
+    </div><!--     END OF FOOTER ROW -->
+	</footer><!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+	</script>
+</body>
+</html>
